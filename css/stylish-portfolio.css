@@ -193,7 +193,7 @@ hr.small-b{
       -ms-transition: all 0.5s ease;
           transition: all 0.5s ease;
  
-	background: url(../img/pune_blur.jpg) no-repeat center center scroll;
+	background: url(../img/bg1_blur.jpg) no-repeat center center scroll;
     /*filter: blur(5px);
     -webkit-filter: blur(5px);
     -moz-filter: blur(5px);
@@ -216,7 +216,7 @@ hr.small-b{
        -o-transition: all 0.5s ease;
       -ms-transition: all 0.5s ease;
           transition: all 0.5s ease;
-    background: url(../img/pune.jpg) no-repeat center center scroll;
+    background: url(../img/bg1.jpg) no-repeat center center scroll;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -224,21 +224,22 @@ hr.small-b{
 }
 
 .circular {
-	width: 175px;
-	height: 175px;
-	border-radius: 175px;
-	-webkit-border-radius: 175px;
-	-moz-border-radius: 175px;
-	background: url(../img/PranavDP.jpg) no-repeat left;
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150x;
+    background: url(../img/Pranav1.jpg) no-repeat left;
+    transform: rotate(90deg);
     z-index: 2;
-    background-position: left -30px top;
-    background-size: 110px 110px;
+    background-position: bottom top;
+    background-size: 210px 160px;
     filter: contrast(130%);
     -webkit-filter: contrast(130%);
     -moz-filter: contrast(130%);
     -o-filter: contrast(130%);
     -ms-filter: contrast(130%);
-	bacground-size:cover;
+	bacground-size:auto;
 }
 
 /* About */
