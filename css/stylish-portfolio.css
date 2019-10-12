@@ -224,11 +224,11 @@ hr.small-b{
 }
 
 .circular {
-	width: 150px;
-	height: 150px;
-	border-radius: 150px;
-	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
+	width: 250px;
+	height: 250px;
+	border-radius: 250px;
+	-webkit-border-radius: 250px;
+	-moz-border-radius: 250px;
 	background: url(../img/PranavDP.jpg) no-repeat left;
     z-index: 2;
     background-position: left -30px top;
