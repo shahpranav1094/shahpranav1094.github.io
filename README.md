@@ -1,5 +1,5 @@
-# riya-bubna.github.io
-Personal Website of [Riya Bubna](http://riya-bubna.github.io).
+# shahpranav1094.github.io
+Personal Website of [Pranav Shah](https://shahpranav1094.github.io).
 
 #Using Template
 
