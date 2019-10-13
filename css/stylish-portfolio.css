@@ -233,10 +233,10 @@ hr.small-b{
 	border-radius: 150px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150x;
-    background: url(../img/Pranav.jpg) no-repeat left;
-    transform: rotate(0deg);
+    background: url(../img/Pranav1.jpg) no-repeat left;
+    transform: rotate(90deg);
     z-index: 2;
-    background-position: bottom top;
+    background-position: left -30px top;
     background-size: 210px 160px;
     filter: contrast(130%);
     -webkit-filter: contrast(130%);
