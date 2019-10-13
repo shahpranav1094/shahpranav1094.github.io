@@ -56,6 +56,10 @@ ul#icon-list li a:hover {
     background-color: #337ab7;
 }
 
+#audio:hover
+{
+    background-color: #337ab7;
+}
 /* Custom Button Styles */
 
 .btn-dark {

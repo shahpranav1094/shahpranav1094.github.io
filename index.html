@@ -23,7 +23,7 @@
 	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">	
-  </head>
+</head>
 
   <body>
   <!-- Navigation -->
@@ -53,20 +53,29 @@
   </ul>
   </nav>
 
+  <script>
+	function TextToSpeech(text) 
+	{
+		if ("speechSynthesis" in window === true)
+		{
+			var utterance = new SpeechSynthesisUtterance(text);
+			window.speechSynthesis.speak(utterance);
+		}
+  	}
+  </script>
 
   <!-- Header -->
   <header id="top" class="header">
 	  <div class="text-vertical-center">
+			<center><h2>ShahPranav1094</h2></center>
 		<Center><div class="circular"></div></center>
-    <h1>Pranav Shah</h1>
-    <br>
+		<h2><center>Hi, I am <p id="audio" class="fa fa-volume-up" style="font-size:32px;color:white" onclick="TextToSpeech('Pranav Shah')"></p> Pranav Shah</center></h2>
 		<ul id="icon-list">
-		  <!--<li><a href="./travel/index.html" class="fa fa-globe" style="font-size:32px;color:white" ></a></li> -->
-		  <li><a href="https://www.linkedin.com/in/pranav-shah-212686182?trk=nav_responsive_tab_profile" class="fa fa-linkedin" style="font-size:32px;color:white"></a></li>
-		  <!--<li><a href="https://www.facebook.com/riya.bubna"  class="fa fa-facebook" style="font-size:32px;color:white"></a></li> -->
+		  <li><a href="https://www.linkedin.com/in/pranav-shah-212686182?trk=nav_responsive_tab_profile" class="fa fa-linkedin" style="font-size:36px;color:white"></a></li>
+		  <li><a href="https://www.instagram.com/pranavshah1094/"  class="fa fa-instagram" style="font-size:36px;color:white"></a></li>
 		  <!-- <li><a href="https://www.youtube.com/user/SamDChamp09/videos"  class="fa fa-youtube-square" style="font-size:32px;color:white"></a></li> -->
-		  <li><a href="https://github.com/shahpranav1094" target="_blank" class="fa fa-github" style="font-size:32px;color:white"> </a></li>
-		  <li><a href="mailto:shahpranav1094@gmail.com" class="fa fa-envelope-o" style="font-size:32px;color:white" ></a></li>
+		  <li><a href="https://github.com/shahpranav1094" target="_blank" class="fa fa-github" style="font-size:36px;color:white"> </a></li>
+		  <li><a href="mailto:shahpranav1094@gmail.com" class="fa fa-envelope-o" style="font-size:36px;color:white" ></a></li>
 		  <!-- <li><a href="http://blog.soumyadeepmukherjee.com" class="fa fa-pencil" style="font-size:32px;color:white" ></a></li> -->
 		</ul>
 		<!-- <div class="fb-follow" data-href="https://www.facebook.com/riya.bubna" data-layout="standard" data-size="small" data-show-faces="false"></div> -->
@@ -159,7 +168,7 @@
   	  <nav id="filter" class="col-md-12 text-center">
   		<ul>
   		  <li><a href="#" class="current btn-theme btn-small" data-filter="*">All</a></li>
-  		  <li><a href="#"  class="btn-theme btn-small" data-filter=".Research" >Research</a></li>
+  		  <li><a href="#"  class="btn-theme btn-small" data-filter=".Courses" >Courses</a></li>
   		  <li><a href="#"  class="btn-theme btn-small" data-filter=".software">Software</a></li>
   		  <li><a href="#" class="btn-theme btn-small" data-filter=".hobby">Hobby</a></li>
   		</ul>
@@ -168,7 +177,7 @@
   	  <div class="col-md-12" id="portfolio"  style="width:100%;">
   		<div class="isotopeWrapper">
   		  <!-- <div class="isotopeWrapper clearfix" id="4"> -->
-      <article class="col-md-4 isotopeItem Research">
+      <article class="col-md-4 isotopeItem Courses">
       <div class=" portfolio-item">
       <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
         <div class="portfolio-hover">
@@ -176,11 +185,11 @@
         <i class="fa fa-plus fa-3x"></i>
         </div>
         </div>
-        <img src="img/recom.jpg" class="img-responsive" alt="Wheel-Leg Trasnfiguring Robot-Sirius">
+        <img src="img/DataStructuresAndAlgorithms.png" class="img-responsive" alt="Wheel-Leg Trasnfiguring Robot-Sirius">
       </a>
       <div class="portfolio-caption">
-        <h4>Scientific Paper Recommendation System</h4>
-        <p class="text-muted">January 16' - April 17'</p>
+        <h4>Data Structures and Algorithms</h4>
+        <p class="text-muted">March 18' - Present</p>
       </div>
       </div>    
       </article>
@@ -298,8 +307,8 @@
         <img src="img/ip.jpg" class="img-responsive" alt="Mosaiq-Image Reconstruction">
       </a>
       <div class="portfolio-caption">
-        <h4>Steganography</h4>
-        <p class="text-muted">September 16' - November 16'</p>
+        <h4>MG Capital Integration in NX</h4>
+        <p class="text-muted">March 18' - October 19'</p>
       </div>
       </div>
       </article>
@@ -332,8 +341,8 @@
   				<img src="img/mail.jpg" class="img-responsive" alt="Harry Plotter">
   			  </a>
   			  <div class="portfolio-caption">
-  				<h4>Mailing system</h4>
-  				<p class="text-muted">March 16'</p>
+  				<h4>Autotest Regression CP Finder</h4>
+  				<p class="text-muted">March 17' - Feb 18'</p>
   			  </div>
   			</div>			
   		  </article>
@@ -526,12 +535,12 @@
 	  </aside>
 	</section>
 
-	<!-- Footer -->
-	<footer>
+	
+	<!--<footer>
 	  <hr class="small">
 	  <center><p class ="text-muted">Cover Image: Courtesy <a href="https://www.facebook.com/nikesharyansphotography/">Nikesh Aryan Photography</a></p>
 		<a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.
-	</footer>
+	</footer>-->
 
 
 	<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
@@ -739,24 +748,18 @@
 			<div class="col-lg-8 col-lg-offset-2">
 			  <div class="modal-body">
 				<!-- Project Details Go Here -->
-				<h2>Scientific Paper Recommendation System</h2>
-				<p class="item-intro text-muted">Bachelors Thesis Project, IIT Kharagpur</p>
-				<center><img class="img-responsive img-centered" src="img/dssm.jpg" alt="Experimental Setup for Interface Tracking"></center><br><br>
-				<p>This project proposes a deep semantic similarity model (DSSM), a special type of deep neural
-                networks designed for text analysis, for recommending target research papers to be of interest
-                to a user based on his research interests. An author’s research interests are found using the
-                papers he has written and the papers that he has cited in his publications. The dataset consists
-                of over a million papers, each entry provides the information of the authors, title, abstract and
-                the citations of the paper. A neural network (more specifically, a DSSM) is trained with this
-                dataset and hence, for any unseen paper as input, it decides if the paper should be recommended
-                or not. The implementataion is in progress.
-      </p>
-      <p><center> Guide : Prof. <a href="http://cse.iitkgp.ac.in/~pabitra/">Pabitra Mitra</a>, Department of Computer Science and Engineering, IIT Kharagpur </center>  
-      </p>
-				<p><strong>Report</strong>: <i><a href="data/btp.pdf">Scientific Paper Recommendation System</a></i></p>
+				<h2>Data Structures and Algorithms</h2>
+				<p><center>Being an enthusiast on Data Structures, I have completed several online courses on them.</center>
+				<center>Here is the list of courses that I have gone through</center></p>
+				<p>
+					<li><a href = "https://www.udemy.com/course/datastructurescncpp/">Mastering Data Structures and Algorithms using C and C++</a></li> 
+					<li><a href = "https://www.youtube.com/playlist?list=PLFE6E58F856038C69">Programming Abstractions, Stanford CS 106B</a></li> 
+					<li><a href = "https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb">MIT 6.006 Introduction to Algorithms</a></li> 
+				</p>
+				<p><strong>Github Repository</strong>: <i><a href="https://shahpranav1094-courses.github.io/Algorithms-DataStructures/">My Work on Data Structures and Algorithms</a></i></p>
 				<ul class="list-inline">
 				  <!-- <li><a href="https://github.com/RP-Hall">Profile</a></li> -->
-				  <li>January 16' to Present</li>
+				  <li>March 18' - Present</li>
 				  <!-- <li><a href="https://github.com/RP-Hall/sirius">Github</a></li> -->
 				</ul>
 				<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
