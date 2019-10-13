@@ -236,7 +236,7 @@ hr.small-b{
     background: url(../img/Pranav1.jpg) no-repeat left;
     transform: rotate(90deg);
     z-index: 2;
-    background-position: left -30px top;
+    background-position: auto;
     background-size: 210px 210px;
     filter: contrast(130%);
     -webkit-filter: contrast(130%);
