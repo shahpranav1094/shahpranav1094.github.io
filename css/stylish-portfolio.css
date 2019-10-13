@@ -237,13 +237,13 @@ hr.small-b{
     transform: rotate(90deg);
     z-index: 2;
     background-position: left -30px top;
-    background-size: 210px 160px;
+    background-size: 210px 210px;
     filter: contrast(130%);
     -webkit-filter: contrast(130%);
     -moz-filter: contrast(130%);
     -o-filter: contrast(130%);
     -ms-filter: contrast(130%);
-	bacground-size:auto;
+	background-size:cover;
 }
 
 /* About */
